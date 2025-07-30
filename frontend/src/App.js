@@ -8,7 +8,7 @@ function App() {
   const [feedback, setFeedback] = useState({}); // questionId => feedback
 
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_API_BASE_URL}/api/quiz`)
+    axios.get(`https://data-structure-project-array-quiz-app.onrender.com/api/quiz`)
       .then(res => setQuestions(res.data))
       .catch(err => console.error(err));
   }, []);
