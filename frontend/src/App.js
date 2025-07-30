@@ -8,7 +8,7 @@ function App() {
   const [feedback, setFeedback] = useState({}); // questionId => feedback
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5000/api/quiz')
+    axios.get(`${process.env.REACT_APP_API_BASE_URL}/api/quiz`)
       .then(res => setQuestions(res.data))
       .catch(err => console.error(err));
   }, []);
