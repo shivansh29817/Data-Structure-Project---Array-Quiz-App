@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: quiz-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    runtime: python3
+    region: oregon
+    plan: free
+    autoDeploy: true
