@@ -84,16 +84,10 @@ questions = [
         "question": "Which of the following is an ACID property in DBMS?",
         "options": ["Atomicity", "Accuracy", "Access", "Association"],
         "answer": "Atomicity"
-    },
-    {
-        "id": 15,
-        "question": "What is the full form of DBMS?",
-        "options": ["Database Model System", "Database Management System", "Data Management Software", "Disk-Based Model Storage"],
-        "answer": "Database Management System"
     }
 ]
 
 # Optional: keep random fetch function if needed
 def get_fixed_questions():
-    return questions[:15]  # First 15 questions
+    return questions[:14]  # First 15 questions
 
