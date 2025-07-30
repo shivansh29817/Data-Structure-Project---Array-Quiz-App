@@ -5,9 +5,6 @@ from quiz_data.questions import get_fixed_questions, add_question, get_all_quest
 app = Flask(__name__)
 CORS(app)
 
-# Initialize questions on first run
-get_fixed_questions()  # Fills the global list
-
 @app.route('/api/quiz', methods=['GET'])
 def get_quiz():
     return jsonify(get_all_questions())
