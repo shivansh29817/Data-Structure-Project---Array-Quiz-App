@@ -1,5 +1,3 @@
-import random
-
 questions = [
     {
         "id": 1,
@@ -84,10 +82,28 @@ questions = [
         "question": "Which of the following is an ACID property in DBMS?",
         "options": ["Atomicity", "Accuracy", "Access", "Association"],
         "answer": "Atomicity"
+    },
+    {
+        "id": 15,
+        "question": "What is the full form of DBMS?",
+        "options": ["Database Model System", "Database Management System", "Data Management Software", "Disk-Based Model Storage"],
+        "answer": "Database Management System"
     }
 ]
 
-# Optional: keep random fetch function if needed
 def get_fixed_questions():
-    return questions[:14]  # First 15 questions
+    return questions[:15]
 
+def get_all_questions():
+    return questions
+
+def add_question(question, options, answer):
+    new_id = max(q['id'] for q in questions) + 1 if questions else 1
+    new_q = {
+        "id": new_id,
+        "question": question,
+        "options": options,
+        "answer": answer
+    }
+    questions.append(new_q)
+    return new_q
