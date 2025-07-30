@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Data-Structure-Project---Array-Quiz-App/static/css/main.1db128eb.css",
+    "main.js": "/Data-Structure-Project---Array-Quiz-App/static/js/main.0ec2bbb9.js",
+    "static/js/453.670e15c7.chunk.js": "/Data-Structure-Project---Array-Quiz-App/static/js/453.670e15c7.chunk.js",
+    "index.html": "/Data-Structure-Project---Array-Quiz-App/index.html",
+    "main.1db128eb.css.map": "/Data-Structure-Project---Array-Quiz-App/static/css/main.1db128eb.css.map",
+    "main.0ec2bbb9.js.map": "/Data-Structure-Project---Array-Quiz-App/static/js/main.0ec2bbb9.js.map",
+    "453.670e15c7.chunk.js.map": "/Data-Structure-Project---Array-Quiz-App/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1db128eb.css",
+    "static/js/main.0ec2bbb9.js"
+  ]
+}
